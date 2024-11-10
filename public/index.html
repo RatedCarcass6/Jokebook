@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joke Book</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to the Joke Book</h1>
+  </header>
+
+  <div class="container">
+    <div id="random-joke" class="joke-card">
+      <h3>Loading Random Joke...</h3>
+    </div>
+
+    <h2>Categories</h2>
+    <div id="category-list" class="category-list">
+      <!-- Categories will appear here -->
+    </div>
+
+    <div class="form-container">
+      <h2>Add a New Joke</h2>
+      <form id="new-joke-form">
+        <input type="text" id="joke-category" placeholder="Category" required />
+        <input type="text" id="joke-setup" placeholder="Setup" required />
+        <input type="text" id="joke-delivery" placeholder="Delivery" required />
+        <input type="submit" value="Add Joke" />
+      </form>
+    </div>
+  </div>
+</body>
+</html>
